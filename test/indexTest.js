@@ -2,7 +2,7 @@ require ( './helpers.js' );
 
 const chai = require('chai')
 const expect = chai.expect;
-
+const {num1, num2, multiply, random, num3, num4, mod, max } = require('../index');
 describe('index.js', function() {
   describe('multiply', function() {
     it("is an equation whose multiplied results will equal 62", function() {
